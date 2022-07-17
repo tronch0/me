@@ -17,4 +17,4 @@ function showNotificationBar(message, duration, bgColor, txtColor, height) {
     });
 }
 
-showNotificationBar('This website also hosted on IPFS at <a href="http://ronkahat.eth/" target="_blank">ronkahat.eth</a>');
+showNotificationBar('This website is also deployed on-chain at <a href="http://ronkahat.eth/" target="_blank">ronkahat.eth</a>');
