@@ -17,4 +17,23 @@ function showNotificationBar(message, duration, bgColor, txtColor, height) {
     });
 }
 
-showNotificationBar('This website is also deployed on-chain at <a href="http://ronkahat.eth/" target="_blank">ronkahat.eth</a>');
+function isMobile() {
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+        return true;
+    }
+
+    if (window.matchMedia("only screen and (max-width: 760px)").matches) {
+        return true;
+    }
+
+    if (('ontouchstart' in document.documentElement && navigator.userAgent.match(/Mobi/))) {
+        return true;
+    }
+
+    return false;
+}
+
+if (isMobile() == false) {
+    showNotificationBar('This website is also deployed on-chain at <a href="http://ronkahat.eth/" target="_blank">ronkahat.eth</a>');
+}
+
