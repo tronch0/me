@@ -1,5 +1,5 @@
 -----BEGIN PGP PUBLIC KEY BLOCK-----
-Version: Keybase OpenPGP v2.1.13
+Version: OpenPGP v2.1.13
 
 xsFNBGPj+RQBEADWzoD3l0WuCHPEvyVlDaLfZOVTJxQXoUZVhSvONWmQmQgiqcJy
 fDdfjJ+Wog/mXrWtSBaZyI5P8mJHNkOxTyudojltb23SrJcpDZfQTG84bKj+fxsV
