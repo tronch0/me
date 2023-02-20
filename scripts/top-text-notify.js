@@ -34,6 +34,6 @@ function isMobile() {
 }
 
 if (isMobile() == false) {
-    showNotificationBar('This website is also deployed on-chain at <a href="http://ronkahat.eth/" target="_blank">ronkahat.eth</a>');
+    showNotificationBar('This website is also deployed on-chain at <a href="https://ronkahat.eth.limo/" target="_blank">ronkahat.eth</a>');
 }
 
