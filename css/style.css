@@ -140,25 +140,3 @@ img {
     padding-top: 10px;
   }
 }
-
-/* 
-.tooltip {
-  position: relative;
-  display: inline-block;
-}
-
-.tooltip::after {
-  content: "";
-  position: absolute;
-  bottom: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: transparent transparent black transparent;
-}
-
-.tooltip:hover::after {
-  visibility: visible;
-  opacity: 1;
-} */
